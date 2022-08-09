@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+}
+
+.navList {
+    display: flex;
+
+    & a {
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0 20px;
+        min-width: 90px;
+        padding: 2px;
+        text-decoration: none;
+    }
+
+    & a:hover {
+        background-color: lightblue;
+        transition: .5s;
+    }
+}
